@@ -85,6 +85,27 @@ Create detailed documentation outlining the analysis process, including data pre
 
 The Industrial Copper Modeling project focuses on forecasting the selling price and transaction outcomes (status) in the copper market by leveraging machine learning methods.
 
+>## Packages & Libraries:
+
+```python
+
+import pandas as pd
+
+import seaborn as sns
+
+import numpy as np
+
+import matplotlib.pyplot as plt
+
+import warnings
+
+warnings.filterwarnings("ignore")
+
+from pyngrok import ngrok
+
+!pip install streamlit pyngrok
+
+!pip install streamlit streamlit-option-menu pyngrok
 
 
 
